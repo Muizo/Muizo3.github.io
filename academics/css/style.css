@@ -1,0 +1,178 @@
+main {
+    margin-top: 90px;
+}
+
+#AcadCourseBg {
+    background: #a52907;
+    height: 250px;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.pagecontrol {
+    overflow: auto;
+    width: 77%;
+    margin: 2rem auto;
+    max-width: 1110px;
+}
+
+.pagecontrol ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.pagecontrol li {
+    display: inline;
+}
+
+.pagecontrol a {
+    color: #04425f;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.AcadCourseContainer {
+    width: 77%;
+    margin: 2rem auto;
+    max-width: 1110px;
+}
+
+.AcadCourseContainer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.AcadCourseBox {
+    float: left;
+    width: 50%;
+    height: 550px;
+}
+
+.AcadCourseBox img {
+    width: 100%;
+}
+
+.AcadCourseBox ul {
+    list-style-position: inside;
+    padding-left: 5px;
+}
+
+.AcadCourseBox li{
+    line-height: 2rem;
+}
+
+.one {
+    position: relative;
+    padding-right: 30px;
+}
+
+#btn40 {
+    margin-top: 2rem;
+    padding: 12px 30px;
+    background-color: #04425f;
+    color:#fff;
+    font-size: 1.05rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 525px) {
+    main {
+        margin-top: 70px;
+    }
+
+    .pagecontrol {
+        overflow: auto;
+        width: 300px;
+        margin: 2rem auto;
+    }
+    
+    .AcadCourseContainer {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .AcadCourseBox img {
+        width: 100%;
+        height: auto;
+    }
+
+    .AcadCourseBox {
+        width: 300px;
+        margin: 2rem auto;
+        float: none;
+        height: auto;
+    }
+
+    .one {
+        position: relative;
+        padding-right: 0px;
+        height: 470px;
+    }
+    
+    #btn40 {
+        margin-top: 4rem;
+        margin-left: 3.5rem;
+        padding: 9px;
+        background-color: #04425f;
+        color:#fff;
+        font-size: 1rem;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 525px) and (max-width: 1200px) {
+    main {
+        margin-top: 70px;
+    }
+
+    .pagecontrol {
+        overflow: auto;
+        width: 500px;
+        margin: 2rem auto;
+    }
+    
+    .AcadCourseContainer {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .AcadCourseBox img {
+        width: 100%;
+        height: auto;
+    }
+
+    .AcadCourseBox {
+        width: 500px;
+        margin: 2rem auto;
+        float: none;
+        height: auto;
+    }
+
+    .one {
+        position: relative;
+        padding-right: 0px;
+        height: 350px;
+    }
+    
+    #btn40 {
+        margin-top: 4rem;
+        margin-left: 3.5rem;
+        padding: 9px;
+        background-color: #04425f;
+        color:#fff;
+        font-size: 1rem;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+
+}
